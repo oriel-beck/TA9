@@ -1,0 +1,48 @@
+<mat-sidenav-container class="container">
+  <mat-sidenav mode="over" (closed)="onClose(false)" position="end">
+    <div class="form-wrapper">
+      <h2>Create New</h2>
+      <form class="form" [formGroup]="itemForm">
+        <div class="top-form">
+          <mat-form-field appearance="outline" class="name">
+            <mat-label>Name</mat-label>
+            <input matInput type="text" formControlName="name" />
+            @if (itemForm.get("name")?.errors) {
+            <mat-error>Please provide a tag name</mat-error>
+            }
+          </mat-form-field>
+          <mat-form-field appearance="outline" class="color">
+            <mat-label>Color</mat-label>
+            <input matInput type="color" formControlName="color" />
+          </mat-form-field>
+        </div>
+        <div class="bottom-form">
+          <mat-form-field
+            appearance="outline"
+            subscriptSizing="dynamic"
+            class="description"
+          >
+            <mat-label>Tag Description</mat-label>
+            <textarea matInput formControlName="description"></textarea>
+          </mat-form-field>
+        </div>
+        <div class="buttons">
+          <button mat-stroked-button (click)="onClose(false)">
+            Cancel
+          </button>
+          <button
+            [disabled]="itemForm.controls.name.errors || itemForm.pristine"
+            type="submit"
+            mat-raised-button
+            (click)="onClose(true)"
+          >
+            Save
+          </button>
+        </div>
+      </form>
+    </div>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <ng-content></ng-content>
+  </mat-sidenav-content>
+</mat-sidenav-container>

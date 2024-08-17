@@ -1,0 +1,352 @@
+[
+    {
+      "name": "Earthquake",
+      "description": "Magnitude 7.1 earthquake in California",
+      "color": "#ff5733",
+      "created_at": "1173650400000",
+      "updated_at": "1173650400000"
+    },
+    {
+      "name": "Flood Warning",
+      "description": "Severe flooding expected in the Midwest",
+      "color": "#3498db",
+      "created_at": "1472245200000",
+      "updated_at": "1472245200000"
+    },
+    {
+      "name": "Wildfire",
+      "description": "Wildfire spreading rapidly in Northern California",
+      "color": "#e74c3c",
+      "created_at": "1279054800000",
+      "updated_at": "1279054800000"
+    },
+    {
+      "name": "Hurricane Alert",
+      "description": "Category 5 hurricane approaching Florida coast",
+      "color": "#f1c40f",
+      "created_at": "1525294800000",
+      "updated_at": "1525294800000"
+    },
+    {
+      "name": "Tornado Watch",
+      "description": "Tornado watch issued for Oklahoma",
+      "color": "#8e44ad",
+      "created_at": "1095541200000",
+      "updated_at": "1095541200000"
+    },
+    {
+      "name": "Power Outage",
+      "description": "Widespread power outage in New York City",
+      "color": "#34495e",
+      "created_at": "1257890400000",
+      "updated_at": "1257890400000"
+    },
+    {
+      "name": "Snowstorm",
+      "description": "Blizzard conditions expected in the Northeast",
+      "color": "#ffffff",
+      "created_at": "980632800000",
+      "updated_at": "980632800000"
+    },
+    {
+      "name": "Heatwave",
+      "description": "Record high temperatures across the Southwest",
+      "color": "#e67e22",
+      "created_at": "1660510800000",
+      "updated_at": "1660510800000"
+    },
+    {
+      "name": "Chemical Spill",
+      "description": "Hazardous chemical spill on highway 101",
+      "color": "#d35400",
+      "created_at": "1365195600000",
+      "updated_at": "1365195600000"
+    },
+    {
+      "name": "Amber Alert",
+      "description": "Missing child reported in Texas",
+      "color": "#ff6347",
+      "created_at": "1626814800000",
+      "updated_at": "1626814800000"
+    },
+    {
+      "name": "Landslide",
+      "description": "Landslide blocking road in Colorado",
+      "color": "#6c3483",
+      "created_at": "1506891600000",
+      "updated_at": "1506891600000"
+    },
+    {
+      "name": "Volcanic Eruption",
+      "description": "Volcano eruption in Hawaii",
+      "color": "#ff4500",
+      "created_at": "1055278800000",
+      "updated_at": "1055278800000"
+    },
+    {
+      "name": "Tsunami Warning",
+      "description": "Tsunami expected after underwater earthquake",
+      "color": "#1abc9c",
+      "created_at": "1203717600000",
+      "updated_at": "1203717600000"
+    },
+    {
+      "name": "Cyclone",
+      "description": "Cyclone forming in the Indian Ocean",
+      "color": "#2980b9",
+      "created_at": "1604527200000",
+      "updated_at": "1604527200000"
+    },
+    {
+      "name": "Drought",
+      "description": "Severe drought conditions in Southern Africa",
+      "color": "#f39c12",
+      "created_at": "1552773600000",
+      "updated_at": "1552773600000"
+    },
+    {
+      "name": "Forest Fire",
+      "description": "Forest fire spreading through Amazon rainforest",
+      "color": "#c0392b",
+      "created_at": "1156971600000",
+      "updated_at": "1156971600000"
+    },
+    {
+      "name": "Nuclear Leak",
+      "description": "Nuclear reactor leak in Japan",
+      "color": "#e74c3c",
+      "created_at": "1305147600000",
+      "updated_at": "1305147600000"
+    },
+    {
+      "name": "Blizzard",
+      "description": "Heavy snowfall causing road closures",
+      "color": "#bdc3c7",
+      "created_at": "978040800000",
+      "updated_at": "978040800000"
+    },
+    {
+      "name": "Air Quality Alert",
+      "description": "Unhealthy air quality due to smog in Los Angeles",
+      "color": "#95a5a6",
+      "created_at": "1428440400000",
+      "updated_at": "1428440400000"
+    },
+    {
+      "name": "Radiation Warning",
+      "description": "Radiation levels rising near Chernobyl",
+      "color": "#9b59b6",
+      "created_at": "1032123600000",
+      "updated_at": "1032123600000"
+    },
+    {
+      "name": "Thunderstorm",
+      "description": "Severe thunderstorms expected in the Southeast",
+      "color": "#2980b9",
+      "created_at": "1686344400000",
+      "updated_at": "1686344400000"
+    },
+    {
+      "name": "Mudslide",
+      "description": "Mudslide warning for mountainous areas",
+      "color": "#8e44ad",
+      "created_at": "1122152400000",
+      "updated_at": "1122152400000"
+    },
+    {
+      "name": "Avalanche",
+      "description": "Avalanche risk in the Rocky Mountains",
+      "color": "#3498db",
+      "created_at": "1391724000000",
+      "updated_at": "1391724000000"
+    },
+    {
+      "name": "Sandstorm",
+      "description": "Sandstorm approaching from the Sahara",
+      "color": "#e67e22",
+      "created_at": "997650000000",
+      "updated_at": "997650000000"
+    },
+    {
+      "name": "Toxic Gas Leak",
+      "description": "Toxic gas leak at chemical plant",
+      "color": "#d35400",
+      "created_at": "1220475600000",
+      "updated_at": "1220475600000"
+    },
+    {
+      "name": "Bridge Collapse",
+      "description": "Bridge collapse on major highway",
+      "color": "#34495e",
+      "created_at": "1484949600000",
+      "updated_at": "1484949600000"
+    },
+    {
+      "name": "Building Fire",
+      "description": "Fire in high-rise building downtown",
+      "color": "#c0392b",
+      "created_at": "1349906400000",
+      "updated_at": "1349906400000"
+    },
+    {
+      "name": "Roadblock",
+      "description": "Roadblock due to civil unrest",
+      "color": "#2c3e50",
+      "created_at": "1706738400000",
+      "updated_at": "1706738400000"
+    },
+    {
+      "name": "Maritime Accident",
+      "description": "Cargo ship collision in the Pacific Ocean",
+      "color": "#3498db",
+      "created_at": "1544306400000",
+      "updated_at": "1544306400000"
+    },
+    {
+      "name": "Terrorist Attack",
+      "description": "Bomb explosion in a public area",
+      "color": "#e74c3c",
+      "created_at": "959202000000",
+      "updated_at": "959202000000"
+    },
+    {
+      "name": "Meteor Shower",
+      "description": "Meteor shower visible in the night sky",
+      "color": "#2980b9",
+      "created_at": "1668808800000",
+      "updated_at": "1668808800000"
+    },
+    {
+      "name": "Water Contamination",
+      "description": "Water contamination in city supply",
+      "color": "#27ae60",
+      "created_at": "1086469200000",
+      "updated_at": "1086469200000"
+    },
+    {
+      "name": "Locust Swarm",
+      "description": "Locust swarm devastating crops",
+      "color": "#f39c12",
+      "created_at": "1241038800000",
+      "updated_at": "1241038800000"
+    },
+    {
+      "name": "Animal Attack",
+      "description": "Bear attack reported in national park",
+      "color": "#8e44ad",
+      "created_at": "1691960400000",
+      "updated_at": "1691960400000"
+    },
+    {
+      "name": "Sinkhole",
+      "description": "Sinkhole opens up in suburban area",
+      "color": "#34495e",
+      "created_at": "1341176400000",
+      "updated_at": "1341176400000"
+    },
+    {
+      "name": "Massive Hailstorm",
+      "description": "Hailstorm causing damage to vehicles and property",
+      "color": "#7f8c8d",
+      "created_at": "1604527200000",
+      "updated_at": "1604527200000"
+    },
+    {
+      "name": "Flash Flood",
+      "description": "Flash flooding in urban areas",
+      "color": "#1abc9c",
+      "created_at": "1156626000000",
+      "updated_at": "1156626000000"
+    },
+    {
+      "name": "Pipeline Explosion",
+      "description": "Gas pipeline explosion in rural area",
+      "color": "#d35400",
+      "created_at": "1417989600000",
+      "updated_at": "1417989600000"
+    },
+    {
+      "name": "Riot",
+      "description": "Riots breaking out in the city center",
+      "color": "#2c3e50",
+      "created_at": "1116104400000",
+      "updated_at": "1116104400000"
+    },
+    {
+      "name": "Cyber Attack",
+      "description": "Cyber attack on major financial institution",
+      "color": "#16a085",
+      "created_at": "1295647200000",
+      "updated_at": "1295647200000"
+    },
+    {
+      "name": "Dam Break",
+      "description": "Dam break causing downstream flooding",
+      "color": "#3498db",
+      "created_at": "1631912400000",
+      "updated_at": "1631912400000"
+    },
+    {
+      "name": "Toxic Waste Spill",
+      "description": "Toxic waste spill near industrial area",
+      "color": "#9b59b6",
+      "created_at": "1268344800000",
+      "updated_at": "1268344800000"
+    },
+    {
+      "name": "Animal Disease",
+      "description": "Outbreak of foot-and-mouth disease in livestock",
+      "color": "#e67e22",
+      "created_at": "1539464400000",
+      "updated_at": "1539464400000"
+    },
+    {
+      "name": "Biohazard Alert",
+      "description": "Biohazard discovered in lab facility",
+      "color": "#ff0000",
+      "created_at": "1456005600000",
+      "updated_at": "1456005600000"
+    },
+    {
+      "name": "Train Derailment",
+      "description": "Passenger train derailment causing casualties",
+      "color": "#7f8c8d",
+      "created_at": "1194472800000",
+      "updated_at": "1194472800000"
+    },
+    {
+      "name": "Prison Break",
+      "description": "Inmates escape from high-security prison",
+      "color": "#2c3e50",
+      "created_at": "962312400000",
+      "updated_at": "962312400000"
+    },
+    {
+      "name": "Electromagnetic Storm",
+      "description": "Solar flare causing disruptions in communications",
+      "color": "#f39c12",
+      "created_at": "1050440400000",
+      "updated_at": "1050440400000"
+    },
+    {
+      "name": "Oil Spill",
+      "description": "Large oil spill in the Gulf of Mexico",
+      "color": "#34495e",
+      "created_at": "1595538000000",
+      "updated_at": "1595538000000"
+    },
+    {
+      "name": "Nuclear Test",
+      "description": "Underground nuclear test detected",
+      "color": "#c0392b",
+      "created_at": "1021064400000",
+      "updated_at": "1021064400000"
+    },
+    {
+      "name": "Space Debris",
+      "description": "Space debris entering Earth's atmosphere",
+      "color": "#2980b9",
+      "created_at": "1447884000000",
+      "updated_at": "1447884000000"
+    }
+]

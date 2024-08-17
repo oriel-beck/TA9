@@ -1,0 +1,32 @@
+:host {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 5rem 1rem;
+    h1 {
+      padding: 0;
+      margin: 0;
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--page-title);
+    }
+  }
+
+  .search {
+    margin: 0 5rem 1.5rem;
+    mat-form-field {
+      background-color: var(--white);
+      width: 100%;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    gap: 0.7rem;
+    
+    button.active {
+      filter: brightness(0.85);
+    }
+  }
+}

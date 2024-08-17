@@ -1,0 +1,57 @@
+:host {
+  .container {
+    background-color: var(--white);
+    height: 100%;
+    width: 100%;
+  }
+  .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 2rem;
+    gap: 1rem;
+    h2 {
+      padding: 0;
+      margin: 0;
+      font-weight: 550;
+      font-size: 1.2rem;
+      color: var(--page-title);
+    }
+
+    .form {
+      display: flex;
+      flex-direction: column;
+      gap: 0.7rem;
+      .top-form {
+        display: flex;
+        gap: 0.5rem;
+        width: 100%;
+
+        .name {
+          flex: 3;
+        }
+
+        .color {
+          flex: 1;
+        }
+      }
+
+      .bottom-form {
+        display: flex;
+        width: 100%;
+
+        .description {
+          width: 100%;
+        }
+      }
+
+      .buttons {
+        width: 100%;
+        display: flex;
+        gap: 0.5rem;
+        button {
+          flex: 1;
+        }
+      }
+    }
+  }
+}

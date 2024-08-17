@@ -1,0 +1,43 @@
+:host {
+  .wrapper {
+    padding-inline: 5rem;
+  }
+
+  td {
+    color: var(--table-cell);
+    cursor: pointer;
+  }
+
+  .color {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;
+    border-radius: 8px;
+  }
+
+  td.mat-column-name {
+    transition: all;
+    transition: ease-in-out 400ms;
+  }
+
+  tr:hover {
+    td.mat-column-name {
+      font-weight: 500;
+      color: var(--name-hover);
+    }
+  }
+
+  /* fixed widths */
+  .mat-column-color {
+    width: 3rem;
+  }
+  .mat-column-name {
+    width: 25rem;
+  }
+  .mat-column-created_at {
+    width: 15rem;
+  }
+  .mat-column-updated_at {
+    width: 15rem;
+  }
+}

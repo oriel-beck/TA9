@@ -1,0 +1,14 @@
+<div class="wrapper">
+  @for (item of items(); track $index) {
+  <div class="grid-item mat-elevation-z5" (click)="editItem.emit(item)">
+    <div class="color-wrapper">
+      <div class="color" [style]="{ 'background-color': item.color }"></div>
+    </div>
+    <div class="name-wrapper">
+      <span class="name">
+          {{ item.name }}
+      </span>
+    </div>
+  </div>
+  }
+</div>

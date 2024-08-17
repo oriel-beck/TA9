@@ -1,0 +1,21 @@
+<div class="header">
+  <h1>Management Tool</h1>
+  <div class="buttons">
+    <button mat-mini-fab (click)="changeView.emit(2)" [class.active]="view() === 2">
+      <mat-icon svgIcon="grid_view" />
+    </button>
+    <button mat-mini-fab (click)="changeView.emit(1)" [class.active]="view() === 1">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <button mat-mini-fab (click)="addNewItem.emit()">
+      <mat-icon>add circle</mat-icon>
+    </button>
+  </div>
+</div>
+<div class="search">
+  <mat-form-field appearance="outline" subscriptSizing="dynamic">
+    <mat-label>Find by Name</mat-label>
+    <mat-icon matPrefix>search</mat-icon>
+    <input type="text" matInput [formControl]="queryControl" />
+  </mat-form-field>
+</div>
